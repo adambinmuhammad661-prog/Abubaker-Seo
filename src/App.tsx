@@ -124,10 +124,20 @@ const Footer = ({ setPage }: { setPage: (p: Page) => void }) => (
             Helping real estate agents and local businesses dominate Google through semantic optimization, technical excellence, and data-driven strategies.
           </p>
           <div className="flex space-x-4">
-            <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-600 transition-colors">
+            <a 
+              href="https://www.facebook.com/muhammad.abubaker.siddiq.seo.specialist" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-600 transition-colors"
+            >
               <Facebook className="w-5 h-5" />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-600 transition-colors">
+            <a 
+              href="https://www.linkedin.com/in/muhammad-abubaker-siddiq-seo-specialist/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-600 transition-colors"
+            >
               <Linkedin className="w-5 h-5" />
             </a>
             <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-600 transition-colors">
@@ -445,7 +455,7 @@ const AboutPage = () => (
       <div className="relative">
         <div className="aspect-square rounded-[48px] bg-gradient-to-br from-blue-600 to-blue-900 overflow-hidden relative group">
           <img 
-            src="https://picsum.photos/seed/professional/800/800" 
+            src="https://drive.google.com/uc?export=view&id=1hwvs3SUmhDC67IrtzY9Z9uB_ZnEfAjr3" 
             alt="Muhammad Abubaker Siddiq" 
             className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
             referrerPolicy="no-referrer"
