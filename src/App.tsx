@@ -191,14 +191,14 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
           transition={{ duration: 0.6 }}
         >
           <span className="inline-block px-4 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-semibold mb-8">
-            Local SEO Specialist for Real Estate & Service Businesses
+            Full-Stack SEO & Web Development Specialist
           </span>
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-8 leading-[1.1]">
             Get More Local Clients from <br />
-            <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">Google Without Ads</span>
+            <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">Google, AI & Maps</span>
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed">
-            Stop losing leads to competitors. I help real estate agents and local businesses dominate the "Map Pack" and rank for high-intent keywords that actually convert.
+            From high-performance web development to cutting-edge AEO & GEO strategies. I build the systems that put your business in front of ready-to-buy customers.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
@@ -212,7 +212,7 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
               onClick={() => setPage('services')}
               className="w-full sm:w-auto bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-full text-lg font-bold transition-all flex items-center justify-center space-x-2"
             >
-              <span>View My Services</span>
+              <span>Explore All Services</span>
               <ArrowRight className="w-5 h-5" />
             </button>
           </div>
@@ -235,8 +235,8 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
             icon: Target
           },
           {
-            title: "Outdated Strategy?",
-            desc: "Old-school keyword stuffing is dead. I use Semantic SEO to build topical authority.",
+            title: "AI Search Gap?",
+            desc: "Is your business showing up in ChatGPT or Perplexity? If not, you're missing the future of search.",
             icon: Zap
           }
         ].map((item, i) => (
@@ -254,15 +254,17 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
     {/* Services Overview */}
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-20">
-        <h2 className="text-3xl md:text-5xl font-bold mb-6">Data-Driven SEO Solutions</h2>
-        <p className="text-gray-400 max-w-2xl mx-auto">No generic buzzwords. Just technical excellence and strategic optimization designed to increase your bottom line.</p>
+        <h2 className="text-3xl md:text-5xl font-bold mb-6">360° Digital Growth Engine</h2>
+        <p className="text-gray-400 max-w-2xl mx-auto">I don't just optimize; I build, rank, and scale. From technical foundations to AI-driven visibility.</p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {[
-          { title: "Local SEO", icon: Globe, desc: "Dominate your city's search results." },
-          { title: "GBP Optimization", icon: MapPin, desc: "Rank higher in the Google Map Pack." },
-          { title: "Semantic SEO", icon: Database, desc: "Build authority with entity-based content." },
-          { title: "Technical SEO", icon: Code2, desc: "Fix indexing and performance issues." }
+          { title: "Full SEO Strategy", icon: TrendingUp, desc: "End-to-end On-Page, Off-Page, and Technical SEO." },
+          { title: "Web Design & Dev", icon: LayoutGrid, desc: "High-converting, lightning-fast websites built for SEO." },
+          { title: "AEO & GEO", icon: Zap, desc: "Optimize for Answer Engines (AI) and Generative Search." },
+          { title: "Local SEO & GBP", icon: MapPin, desc: "Dominate local maps and city-specific searches." },
+          { title: "Semantic SEO", icon: Database, desc: "Topical authority through entity-based content." },
+          { title: "Technical Excellence", icon: Code2, desc: "Perfect indexing and Core Web Vitals optimization." }
         ].map((service, i) => (
           <div key={i} className="p-6 rounded-2xl bg-gradient-to-b from-white/10 to-transparent border border-white/5 hover:bg-white/10 transition-all cursor-pointer" onClick={() => setPage('services')}>
             <service.icon className="w-8 h-8 text-blue-500 mb-4" />
@@ -277,8 +279,8 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
     <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="relative rounded-[40px] bg-gradient-to-br from-blue-600 to-blue-800 p-12 md:p-20 overflow-hidden text-center">
         <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 blur-3xl rounded-full -mr-32 -mt-32" />
-        <h2 className="text-3xl md:text-5xl font-bold mb-8 relative z-10">Ready to outrank your competitors?</h2>
-        <p className="text-xl text-blue-100 mb-12 max-w-2xl mx-auto relative z-10">Let's audit your current presence and build a roadmap to the first page of Google.</p>
+        <h2 className="text-3xl md:text-5xl font-bold mb-8 relative z-10">Ready to dominate the search landscape?</h2>
+        <p className="text-xl text-blue-100 mb-12 max-w-2xl mx-auto relative z-10">Let's audit your current presence and build a roadmap to the first page of Google and AI search results.</p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 relative z-10">
           <a href="https://wa.me/923430044968" className="bg-white text-blue-600 px-10 py-4 rounded-full text-lg font-bold hover:bg-blue-50 transition-colors shadow-2xl">
             Book a Free Strategy Call
@@ -296,9 +298,9 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
       <h2 className="text-3xl font-bold mb-12 text-center">Frequently Asked Questions</h2>
       <div className="space-y-6">
         {[
-          { q: "How long does it take to see results?", a: "SEO is a marathon, not a sprint. Typically, you'll see movement in 3-4 months, with significant ROI after 6 months." },
-          { q: "Do you guarantee #1 rankings?", a: "No ethical SEO can guarantee #1. However, I guarantee a significant increase in visibility, traffic, and high-quality leads." },
-          { q: "Why focus on Real Estate?", a: "Real estate is highly local. Most agents rely on expensive ads; I help them build an asset (their website) that brings free leads forever." }
+          { q: "What is AEO and GEO?", a: "AEO (Answer Engine Optimization) and GEO (Generative Engine Optimization) are strategies to ensure your business is cited and recommended by AI models like ChatGPT, Gemini, and Perplexity." },
+          { q: "Do you build the websites yourself?", a: "Yes. As a software engineering student, I build custom, high-performance websites that are technically optimized for SEO from day one." },
+          { q: "What is 'Full SEO'?", a: "Full SEO includes On-Page (content/HTML), Off-Page (backlinks/authority), and Technical SEO (speed/indexing) to provide a complete growth solution." }
         ].map((faq, i) => (
           <div key={i} className="p-6 rounded-2xl bg-white/5 border border-white/10">
             <h4 className="font-bold mb-3 flex items-center space-x-3">
@@ -316,35 +318,53 @@ const HomePage = ({ setPage }: { setPage: (p: Page) => void }) => (
 const ServicesPage = () => (
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 space-y-32">
     <div className="text-center max-w-3xl mx-auto">
-      <h1 className="text-4xl md:text-6xl font-bold mb-8">Specialized SEO Services</h1>
-      <p className="text-xl text-gray-400">I combine software engineering principles with advanced SEO strategies to build systems that rank.</p>
+      <h1 className="text-4xl md:text-6xl font-bold mb-8">Full-Stack Digital Services</h1>
+      <p className="text-xl text-gray-400">Comprehensive solutions for the modern search era. I combine technical development with advanced optimization.</p>
     </div>
 
     <div className="grid grid-cols-1 gap-24">
       {[
         {
+          title: "Website Design & Development",
+          desc: "I build high-performance, conversion-focused websites. No generic templates—just custom code optimized for speed, user experience, and search engines.",
+          points: ["Custom React/Next.js Development", "UI/UX Design for Conversion", "Mobile-First Responsive Design", "Lightning Fast Load Times"],
+          icon: LayoutGrid,
+          img: "https://picsum.photos/seed/webdev/800/600"
+        },
+        {
+          title: "On-Page SEO Optimization",
+          desc: "Every element on your page matters. I optimize your content and HTML to ensure search engines understand exactly what you offer.",
+          points: ["Keyword Mapping & Optimization", "Meta Tags & Header Structure", "Internal Linking Strategy", "Image Alt Text & Compression"],
+          icon: Target,
+          img: "https://picsum.photos/seed/onpage/800/600"
+        },
+        {
+          title: "Off-Page SEO & Authority Building",
+          desc: "I help you build the 'Trust' and 'Authority' needed to rank. It's not just about links; it's about building a digital footprint that Google respects.",
+          points: ["High-Quality Backlink Acquisition", "Digital PR & Guest Posting", "Brand Mention Monitoring", "Social Signal Optimization"],
+          icon: Globe,
+          img: "https://picsum.photos/seed/offpage/800/600"
+        },
+        {
+          title: "AEO & GEO (AI Search Optimization)",
+          desc: "The future of search is AI. I optimize your data and content to ensure you are the 'Chosen Answer' in ChatGPT, Gemini, and Generative Search results.",
+          points: ["Generative Engine Optimization", "LLM Citation Strategy", "Structured Data for AI", "Conversational Keyword Research"],
+          icon: Zap,
+          img: "https://picsum.photos/seed/ai-seo/800/600"
+        },
+        {
           title: "Local SEO & Map Pack Domination",
-          desc: "I optimize your website to rank for 'near me' searches and local keywords. This isn't just about keywords; it's about proximity, relevance, and prominence.",
-          points: ["Hyper-local keyword research", "Competitor gap analysis", "Local citation building", "Proximity optimization"],
-          icon: Globe
-        },
-        {
-          title: "Google Business Profile (GBP) Optimization",
-          desc: "Your GBP is your digital storefront. I optimize every inch of it to ensure you show up in the top 3 of the Map Pack.",
-          points: ["Category & attribute optimization", "Review management strategy", "GBP post automation", "Image & video optimization"],
-          icon: MapPin
-        },
-        {
-          title: "Semantic & Entity-Based SEO",
-          desc: "Google doesn't just read words; it understands entities. I build topical authority by creating content clusters that answer search intent perfectly.",
-          points: ["Entity mapping", "Topic clustering", "Schema markup implementation", "Content gap fulfillment"],
-          icon: Database
+          desc: "I optimize your website and Google Business Profile to rank for 'near me' searches and local keywords in your specific city.",
+          points: ["GBP Category & Post Optimization", "Local Citation Building", "Proximity & Relevance Tuning", "Review Management Strategy"],
+          icon: MapPin,
+          img: "https://picsum.photos/seed/localseo/800/600"
         },
         {
           title: "Technical SEO & Performance",
-          desc: "A slow website won't rank. As a software engineer, I dive deep into your site's code to ensure perfect indexing and lightning-fast speeds.",
-          points: ["Core Web Vitals optimization", "Advanced Schema (JSON-LD)", "Crawl budget management", "Mobile-first indexing fixes"],
-          icon: Code2
+          desc: "As a software engineer, I fix the deep technical issues that hold your site back. Perfect indexing and perfect speed.",
+          points: ["Core Web Vitals Fixes", "Advanced Schema Markup", "Crawl Budget Optimization", "Sitemap & Robots.txt Tuning"],
+          icon: Code2,
+          img: "https://picsum.photos/seed/techseo/800/600"
         }
       ].map((service, i) => (
         <div key={i} className={`flex flex-col lg:flex-row gap-12 items-center ${i % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}>
@@ -363,9 +383,14 @@ const ServicesPage = () => (
               ))}
             </ul>
           </div>
-          <div className="flex-1 w-full aspect-video bg-gradient-to-br from-blue-600/20 to-transparent rounded-[32px] border border-white/10 flex items-center justify-center relative overflow-hidden">
-            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20" />
-            <service.icon className="w-32 h-32 text-blue-500/20" />
+          <div className="flex-1 w-full aspect-video rounded-[32px] border border-white/10 overflow-hidden relative group">
+            <img 
+              src={service.img} 
+              alt={service.title} 
+              className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+              referrerPolicy="no-referrer"
+            />
+            <div className="absolute inset-0 bg-blue-600/10 group-hover:bg-transparent transition-colors" />
           </div>
         </div>
       ))}
