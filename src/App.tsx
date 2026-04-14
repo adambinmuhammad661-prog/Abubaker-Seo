@@ -140,7 +140,12 @@ const Footer = ({ setPage }: { setPage: (p: Page) => void }) => (
             >
               <Linkedin className="w-5 h-5" />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-600 transition-colors">
+            <a 
+              href="https://www.instagram.com/abubaker_ktk/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-blue-600 transition-colors"
+            >
               <Instagram className="w-5 h-5" />
             </a>
           </div>
